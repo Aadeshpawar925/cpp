@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="marks.css">
+    <script src="marks.js"></script>
+</head>
+<body>
+    <table>
+    <caption><h2><i>MARKS REPORT</i></h2></caption>
+    
+    <tr>
+        <th>roll no</th> <td><input type="text" id="rn"></td>
+    </tr>
+    <tr>
+        <th>name</th><td><input type="text" id="n"></td>
+    </tr>
+    <th>MARKS : </th>
+    <tr>
+        <th>js</th><td><input type="text" id="js"></td>
+    </tr>
+    <tr>
+        <th>html</th><td><input type="text" id="html"></td>
+    </tr>
+    <tr>
+        <th>css</th><td><input type="text" id="css"></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><button onclick="result()">get result</button> </td></tr>
+    <tr align="right">
+        <td colspan="2">
+    <output id="total"></output><br>
+    <output id="average"></output><br>
+</td>
+</tr>
+</table>
+</body>
+</html>

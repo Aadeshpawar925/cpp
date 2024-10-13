@@ -1,0 +1,23 @@
+table
+{
+    background-color: aquamarine;
+    background: fixed;
+    border-color: black;
+    color: brown;
+}
+caption{
+    color: black;
+    text-decoration: wavy underline;
+}
+  input{
+    outline:none;
+    font-size:18px;
+  }
+  th{
+    text-align:right;
+    font-size:18px;
+  }
+  output{
+    color:blue;
+    font-size:18px;
+  }
